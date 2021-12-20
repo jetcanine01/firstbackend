@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Dev Course</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+        body{
+            background-image: url(bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .container{
+            display: flex;
+            padding: 10px;
+            flex-wrap: wrap;
+        }
+        .container>.enroll{
+            color: rgb(252 168 19);
+            padding: 31px 10px 10px 10px;
+            margin: 9px -18px 10px 10px;
+            font-size: 80px;
+            flex-wrap: wrap;
+            font-family: 'Merriweather', serif;
+        }
+        .container>.free{
+            font-family: 'Merriweather', serif;
+            color: white;
+            padding: 65px 10px 10px 10px;
+            margin: 10px 10px 10px 10px;
+            font-size: 40px;
+            /* display: block; */
+            flex-direction: ro
+        }   
+        .con1{
+        
+            display: flex;
+            padding: 10px 10px 10px 10px;
+            margin: -57px 10px 10px 10px;
+            flex-wrap: wrap;
+
+        }         
+
+        .con1>.android{
+            font-family: 'Merriweather', serif;
+            color: white;
+            padding: 10px 10px 10px 10px;
+            font-size: 40px;
+
+        }
+        .con1>.course{
+            color: rgb(252 168 19);
+            padding: 14px 10px 10px 10px;
+            margin: 1px 10px 10px -13px;
+            font-size: 80px;
+            font-family: 'Merriweather', serif;
+        }
+        .form{
+            display: grid;
+            grid-column: auto;
+            width: 50px;
+            padding: 10px 10px 10px 29px;   
+        }
+        .form>.input1>input[type="text"]{
+            padding: 15px 100px 10px 10px;
+            text-align: left;
+            margin: 10px 10px 10px 10px;
+            background: none;
+            border: 5px solid rgb(252 168 19);
+            border-radius: 10px;
+            color: white;
+            font-size: larger;
+            outline: 0;
+        }
+        .form>.input2>input[type="text"]{
+            padding: 15px 100px 10px 10px;
+            text-align: left;
+            margin: 10px 10px 10px 10px;
+            background: none;
+            border: 5px solid rgb(252 168 19);
+            border-radius: 10px;
+            color: white;
+            font-size: larger;
+            outline: 0;
+        }
+        .form>.input3>input[type="text"]{
+            padding: 15px 100px 10px 10px;
+            text-align: left;
+            margin: 10px 10px 10px 10px;
+            background: none;
+            border: 5px solid rgb(252 168 19);
+            border-radius: 10px;
+            color: white;
+            font-size: larger;
+            outline: 0;
+            
+        }
+        .form>.input1>input:focus{
+            border: 5px solid rgb(213,47,73,255);
+        }
+        .form>.input2>input:focus{
+            border: 5px solid rgb(213,47,73,255);
+        }
+        .form>.input3>input:focus{
+            border: 5px solid rgb(213,47,73,255);
+        }
+        .btn>button{
+            display: flex;
+            position: relative;
+            /* left: 1em; */
+            /* justify-self: center; */
+            margin: 10px 10px 10px 150px;
+            padding: 10px 15px 10px 10px;
+            text-align: center;
+            color: white;
+            background: none;
+            border: 5px solid rgb(252 168 19);
+            border-radius: 10px;
+            outline: 0;
+        }
+        .btn>button:hover{
+            background: rgb(252 168 19);
+            color: black;
+            cursor: pointer;
+        }
+
+    </style>
+    
+    <div class="container">
+        <p class="enroll">Enroll</p>
+        <p class="free">For Free</p>
+        
+    </div>
+    <div class="con1">
+        <p class="android">Android Development</p>
+        <p class="course">course</p>
+    </div>
+    <div class="form">
+        <div class="input1"><input type="text" placeholder="Name"></div>
+        <div class="input2"><input type="text" placeholder="Age"></div>
+        <div class="input3"><input type="text" placeholder="Phone No."></div>
+    </div>
+    <div class="btn">
+        <button>Submit</button>
+    </div>
+</body>
+</html>
